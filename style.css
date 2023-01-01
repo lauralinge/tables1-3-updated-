@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+.table1 {
+    border: 2px solid #FFBF00;
+    border-collapse: collapse;
+    font-family: Montserrat;
+    margin: 30px auto;
+    width: 500px;
+    
+}
+
+.table1 th{
+    border: 1px solid #FFBF00;
+    padding: 15px;
+    text-align: center;
+
+}
+
+ .table1 td {
+    border: 1px solid #FFBF00;
+    padding: 15px;
+    text-align: left;
+}
+
+.lastname1 {
+    background: #e29f04;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.table1 thead {
+    background: #FFBF00;
+    text-align: center;
+
+}
+
+.table1 tbody {
+    background: #302387;
+    color: white;
+}
+
+
+.table2{
+    order: 2px solid blue;
+    border-collapse: collapse;
+    font-family: 'Sevillana', cursive;
+    margin: 30px auto;
+}
+
+
+.table2 th{
+    border: 1.5px solid white;
+    padding: 15px;
+    color: white;
+
+}
+
+ .table2 td {
+    border: 1.5px solid white;
+    padding: 15px;
+    text-align: left;
+    width: 150px;
+}
+
+.table2.lastname {
+    background: #e29f04;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.table2 thead {
+    background: #7F167F;
+    text-align: left;
+   
+}
+
+.table2 tbody {
+    background: #F56EB3;
+    color: white;
+}
+
+.table2 tr:nth-of-type(even) {
+    background: #905E96;
+}
+
+.table2 tr:nth-of-type(odd) {
+    background: #F56EB3;
+}
+
+.table2 thead tr:first-of-type {
+    background: #7F167F;
+    color: #58287F;
+}
+
+.table3 {
+    order: 2px solid black;
+    border-collapse: collapse;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px auto;
+    width: 380px;
+}
+
+.table3 th{
+    border: 1.5px solid black;
+    padding: 5px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    width: 60%; 
+
+}
+
+ .table3 td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: left;
+    width: 200px;
+}
+
+.lastname12{
+background: orange;
+color: white;
+
+}
+
+.lastname13{
+background: #5463FF;
+color: white;
+
+}
+
+.lastname14{
+background: #3EC70B;
+color: white;
+}
